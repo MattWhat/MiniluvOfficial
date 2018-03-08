@@ -1,0 +1,13 @@
+.landing{
+  text-align: center;
+  background-color: #0255FC;
+  color: white;
+  font-family: sans-serif;
+}
+.center{
+  margin-left:auto;
+  margin-right:auto;
+  padding: 10px;
+}
+
+ /* margin-left: auto; margin-right: auto; width:40%  */
