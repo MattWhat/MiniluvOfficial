@@ -1,6 +1,6 @@
 .landing{
   text-align: center;
-  background-color: #0255FC;
+  background-color: #21409A;
   color: white;
   font-family: sans-serif;
 }
@@ -10,45 +10,21 @@
   padding: 10px;
 }
 
- /* margin-left: auto; margin-right: auto; width:40%  */
- .container {
-     position: relative;
-     width: auto;
- }
+.souptime{
+  //background-color: white;
+  color: #21409A;
+  height: auto;
+  width: 80%;
+  font-family: sans-serif;
+}
 
- .image {
-   opacity: 1;
-   display: block;
-   width: auto;
-   height: auto;
-   transition: .5s ease;
-   backface-visibility: hidden;
- }
+.jumbotron{
+  text-align: left;
+  background-color: #21409A;
+  color: white;
+  image: left;
+}
 
- .middle {
-   transition: .5s ease;
-   opacity: 0;
-   position: absolute;
-   top: 50%;
-   left: 49.8%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   text-align: center;
- }
-
- .container:hover .image {
-   opacity: 0.3;
- }
-
- .container:hover .middle {
-   opacity: 1;
- }
-
- .text {
-   border-color: white;
-   background-color: #0255FC;
-   color: white;
-   font-size: 16px;
-   font-family: sans-serif;
-   padding: 16px 32px;
- }
+.container{
+  background-color: #21409A;
+}
